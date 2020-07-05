@@ -3,10 +3,12 @@ import React, { useState, useEffect } from "react";
 
 import './app.css';
 
+import Title from 'comp/Title.jsx'
+
 function App(props) {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Title text={"Hello World Component"} />
     </div>
   )
 }
