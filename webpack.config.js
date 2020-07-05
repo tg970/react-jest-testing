@@ -52,7 +52,7 @@ const config = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./src/public/index.html",
-      favicon: "./src/public/favicon.ico",
+      // favicon: "./src/public/favicon.ico",
       meta: {
         description: "Table Example",
         robots: "index, follow",
