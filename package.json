@@ -4,7 +4,7 @@
   "description": "Example project for testing setup using React, Webpack, and Jest",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --silent --verbose",
     "start": "node server/index.js",
     "build": "webpack --mode production --json > stats.json",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
