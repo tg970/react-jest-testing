@@ -1,6 +1,8 @@
 
 import React, { useState, useEffect } from "react";
 
+import './app.css';
+
 function App(props) {
   return (
     <div>
